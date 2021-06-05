@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: cursive;
+}
+#apps{
+    height: 800px;
+    width: 100%;
+    background-color: mediumturquoise;
+}
+#games{
+    height: 800px;
+    width: 100%;
+    background-color:orangered;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
